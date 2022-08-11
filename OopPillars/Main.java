@@ -19,7 +19,7 @@ public class Main {
         //will use the overloaded method  to set age
         dog2.setTypeOfDog("Kangal");
 
-        //Display objects
+        //objects
         System.out.println(animal);
         System.out.println(dog1);
         System.out.println(dog2);
