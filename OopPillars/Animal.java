@@ -41,7 +41,6 @@ public class Animal {
         this.age = age;
     }
 
-    //overload method to take a double parameter
     public void setAge(double age)
     {
         this.age = (int)age;
