@@ -16,7 +16,7 @@ public class Main {
         dog2.setName("zek");
         dog2.setAge(3);
 
-        //will use the overloaded method  to set age
+        //
         dog2.setTypeOfDog("Kangal");
 
         //objects
