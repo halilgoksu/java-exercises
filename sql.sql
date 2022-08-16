@@ -1,5 +1,3 @@
-
-
 --- Select all records from the Employee table
 select * from "Employee" e ;
 
@@ -32,7 +30,6 @@ where "Total" >= 15 and "Total" <= 50;
 select * from "Employee" e 
 where "HireDate" >= '01-01-2003' and "HireDate" <= '01-03-2004';
 
-
 --Insert two new records into Genre table
 insert into "Genre" values(26, 'Michael Jackson');
 insert into "Genre" values(27, 'EDM');
@@ -44,7 +41,6 @@ insert into "Employee" values(10, 'Ronaldo', 'Christiano', 'Best player', '6', '
 --Insert two new records into Customer table
 insert into "Customer" values(60,'Dani', 'Alves', null, 'Center of ', 'Besni', null, 'Kurdistan', '414253541', '414253541', null, 'dfdfdsf@gmail.com', 5);
 insert into "Customer" values(61, 'Enes', 'Gor', null, 'Engelewood', 'Denver', null, 'Turkiye', '80000', '+414253541', null, 'dfdsfas@gmail.com', 3);
-
 
 --Update Aaron Mitchell in Customer table to Robert Walter
 update "Customer" 
