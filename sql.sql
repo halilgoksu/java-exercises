@@ -28,7 +28,7 @@ where "Total" >= 15 and "Total" <= 50;
 
 --Select all employees hired between 1st of June 2003 and 1st of March 2004
 select * from "Employee" e 
-where "HireDate" >= '06-01-2003' and "HireDate" <= '01-03-2004';
+where "HireDate" >= '06-01-2003' and "HireDate" <= '03-01-2004';
 
 --Insert two new records into Genre table
 insert into "Genre" values(26, 'Michael Jackson');
