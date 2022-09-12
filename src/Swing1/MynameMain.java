@@ -2,7 +2,7 @@
 //display your name, one for your first name and one for your last.
 
 
-package myName;
+package Swing1;
 import  java.awt.*;
 import  javax.swing.*;
 
