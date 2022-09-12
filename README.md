@@ -1,3 +1,2 @@
-# JavaRevatureExercise
+# JavaExercises
 
-#JAVA
