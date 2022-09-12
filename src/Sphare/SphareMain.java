@@ -25,10 +25,5 @@ public class SphareMain {
         System.out.println("Volume = " +decForm.format(volume));
         System.out.println("Area = "+decForm.format(area));
 
-
-
-
-
-
     }
 }
