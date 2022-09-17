@@ -20,7 +20,7 @@ public class MagicMain {
 
             counter++;
             System.out.println(counter);
-            SwitcCells();
+            SwitchCells();
         }while (!IsMagicSquare());
         DisplayBoard();
         System.out.print("It took "+counter + " tries. ");
@@ -31,13 +31,14 @@ public class MagicMain {
             for(int c =0;c<3 ;c++){
                 System.out.print(numbers[i][c]+ " ");
             }
-            System.out.print(" ");
+            System.out.println("");
         }
     }
 
     private static boolean IsMagicSquare(){
         int tempSum=numbers[0][0]+ numbers[0][1] + numbers[0][2];
         //compare rows;start from row 1 because tempSum already holds the sum for row 0
+        //3 it will generate 3 row
         for(int i=1;i<3;i++){
             if (numbers[i][0]+numbers[i][1]+numbers[i][2] != tempSum){
                 return false;
@@ -53,8 +54,8 @@ public class MagicMain {
                 &&numbers[0][2] +numbers[1][1]+ numbers[2][0]==tempSum ;
 
     }
-
-    private static void SwitcCells(){
+//it will switch numbers in array
+    private static void SwitchCells(){
         int[] number1 = new int[2];
         int[] number2=new int[2];
 
